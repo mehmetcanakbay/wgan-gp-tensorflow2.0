@@ -5,4 +5,4 @@ Code is written for MNIST digits. With a few changes you can make it work for pr
 
 You can see how it works here for MNIST digits (25 epochs and batch size of 64):
 
-![Alt Text](https://imgur.com/ueCCR2A)
+![GIF](https://i.imgur.com/ueCCR2A.gif)
