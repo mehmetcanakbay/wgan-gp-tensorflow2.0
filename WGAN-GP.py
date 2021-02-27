@@ -34,6 +34,7 @@ iterable_list = iter(data_list)
 
 #GP from the paper.
 def gradient_penalty(discriminator, real, fake):
+    global batch_size
     img_size, img_size, c = real.shape[1:]
     epsilon = np.random.uniform(size=(batch_size,1,1,1))
     interpolated_img = real*epsilon + fake*(1-epsilon)
