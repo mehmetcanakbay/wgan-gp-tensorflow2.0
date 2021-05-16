@@ -1,3 +1,6 @@
+"""
+This actually shouldnt work. I dont exactly know why it works. For a proper version, please check out "WGAN-GP" folder instead.
+"""
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
